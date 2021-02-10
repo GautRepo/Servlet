@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body bgcolor="lightblue">
+		<h1 style="text-align:center; color:green">HTML to Servlet communication using Js</h1>
+		
+		<form action="countryurl" method="post" name="frm">
+			Country Name::<select name="country" onchange="send()">
+								<option value="" selected>--Select--</option>
+								<option value="0">India</option>
+								<option value="1">USA</option>
+								<option value="2">China</option>
+								<option value="3">Japan</option>
+								<option value="4">Germany</option>
+						 </select>
+		</form>
+</body>
+
+<script language="JavaScript">
+	function send(){
+		frm.submit();
+	}
+
+</script>
+
+
+</html>
